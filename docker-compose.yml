@@ -1,7 +1,7 @@
 # Stretch Thu — 5-service coordinator stack.
 # (Plus optional neo4j + weaviate if the learner wires the kg_svc and
-# rag_svc to real persistence tiers — the stretch spec lists 8 services
-# total when that wiring is present.)
+# rag_svc to real persistence tiers — the stretch spec lists 7 services
+# total when that wiring is present: 5 microservices + 2 data tiers.)
 #
 # TODO (learner): author this file.
 # - services: coordinator, classifier_svc, nlp_svc, kg_svc, rag_svc.
